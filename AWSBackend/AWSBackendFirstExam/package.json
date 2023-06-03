@@ -1,0 +1,22 @@
+{
+  "name": "AWS Backend API Bookshelf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "books.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [],
+  "author": "Gohand Silitonga",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.1.29"
+  }
+}
